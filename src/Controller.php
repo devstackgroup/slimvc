@@ -5,9 +5,9 @@ namespace Slimvc;
 use \Slim\Slim;
 
 /**
-* Controller abstract class
+* Controller class
 */
-abstract class Controller
+class Controller
 {
     protected $app;
     protected $config = [];
