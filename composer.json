@@ -1,0 +1,24 @@
+{
+    "name": "devstackgroup/slimvc",
+    "description": "MVC Skeleton for PHP Slim Framwork",
+    "require": {
+        "php": ">=5.4",
+        "slim/slim": "^2.6",
+        "devstackgroup/cbase": "dev-master",
+        "devstackgroup/jwt": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej Kostrzewa",
+            "email": "andkos11@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Slimvc\\": "src",
+            "Sample\\": "app"
+        }
+    }
+}
